@@ -5,7 +5,7 @@ public class User {
     // attribute/property/field
     private String username;
 
-    private String password;
+    private String password = "default for example";
 
     private String name;
 
@@ -24,6 +24,11 @@ public class User {
     public User(String username, String name) {
         this.username = username;
         this.name = name;
+    }
+
+    // method overloading
+    public void changePassword() {
+        changePassword("this is default");
     }
 
     public void changePassword(String newPassword) {

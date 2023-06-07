@@ -104,8 +104,12 @@ public class Main {
         // 4. default - it isn't written, also called package private
 
         doSomething();
-        int sum = sum(5, 3);
+        int x = 5;
+        int sum = sum(x, 3);
+        System.out.println("---");
+        System.out.println(x);
         System.out.println(sum);
+        System.out.println("---");
         System.out.println(sum(5, 3));
 
         int age = 18;
@@ -133,6 +137,14 @@ public class Main {
         System.out.println(alex);
         User.doSomething(); // class level method
         System.out.println(User.FIELD);
+
+        ArrayList<Integer> intArray = new ArrayList<>();
+        // int Integer
+        for (int integer : intArray) {
+            System.out.println(integer);
+        }
+
+
     }
 
     // visibility modifier
@@ -149,7 +161,8 @@ public class Main {
     // visibility modifier, static/non static, return type, method name, (parameter)
     private static int sum(int x, int y) {
         doSomething();
-        return x + y;
+        x = 10;
+        return x;
     }
 
 }
