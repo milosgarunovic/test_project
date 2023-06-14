@@ -150,7 +150,7 @@ public class Main {
     // visibility modifier
     // 1. public - everyone can see
     // 2. private - only visible in that class
-    // 3. protected - only children classes can access that
+    // 3. protected - only children classes can access that and the same package
     // 4. default - it isn't written, also called package private
 
     // void - type that does nothing
