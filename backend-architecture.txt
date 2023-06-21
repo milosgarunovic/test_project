@@ -1,0 +1,11 @@
+RESOURCES - http server part
+
+SERVICE - business logic
+
+REPOSITORY - database read/write
+
+// lombok framework
+// GOF - Gang of Four book - Design Patterns
+// Head first Design patterns
+
+// Decorator pattern used for working with files Streams Buffer
